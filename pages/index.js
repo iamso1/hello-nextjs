@@ -1,5 +1,4 @@
 import Todo from '../components/todo';
-import Hero from '../components/hero';
 import Layout from '../components/layout';
 
 export default () => (
