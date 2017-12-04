@@ -52,7 +52,7 @@ export default class List extends Component {
             this.delete(index);
           }}
         >
-          Delete Me
+          Delete
         </button>
       </li>
     );
@@ -62,8 +62,8 @@ export default class List extends Component {
     const resutl = this.state.data.map(this.renderItem);
     return (
       <div>
+        <h3>{this.props.title}</h3>
         <div>{resutl}</div>
-        <Create doAdd={this.add} />
       </div>
     );
   }
